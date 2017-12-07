@@ -38,7 +38,7 @@ editor.setValue(value);//设置内容
     <!--sql模式-->
     <script src="https://cdn.bootcss.com/ace/1.2.9/mode-sql.js"></script>
 ```
-* 格式处理
+* 格式处理  
 可以自己进行格式处理，比如关键字换行、大小写转换等  
 如下代码示意：
 ```
