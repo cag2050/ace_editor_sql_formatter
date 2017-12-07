@@ -2,9 +2,8 @@
 .sql
     .old.fl
         .textLeft sql语句：
+        button(@click='formatSql') 格式化
         pre#editor.word.textLeft {{ sqlStr }}
-    .fl
-        button(@click='formatSql') 转换
 </template>
 
 <script>
