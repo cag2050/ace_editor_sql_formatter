@@ -1,6 +1,9 @@
 # ace_demo
 
-* 官方地址：https://github.com/ajaxorg/ace
+* ace 结合 sql-formatter，实现sql的录入和格式化。
+
+* ace官方地址：https://github.com/ajaxorg/ace
+sql-formatter官方地址：https://github.com/zeroturnaround/sql-formatter
 * 参考：
 1. https://yq.aliyun.com/articles/65260
 1. http://blog.csdn.net/sd4015700/article/details/49910353
