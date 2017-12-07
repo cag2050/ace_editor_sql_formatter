@@ -19,7 +19,19 @@
 editor.getValue();//获取内容
 editor.setValue(value);//设置内容
 ```
-
+* 
+```
+    <!--编辑器的最主要文件-->
+    <script src="http://cdn.bootcss.com/ace/1.2.9/ace.js"></script>
+    <!--用来提供代码提示和自动补全的插件-->
+    <script src="http://cdn.bootcss.com/ace/1.2.9/ext-language_tools.js"></script>
+    <!--兼容旧版本IE-->
+    <script src="http://cdn.bootcss.com/ace/1.2.9/ext-old_ie.js"></script>
+    <!--编辑器的主题插件-->
+    <script src="http://cdn.bootcss.com/ace/1.2.9/theme-monokai.js"></script>
+    <!--sql模式-->
+    <script src="https://cdn.bootcss.com/ace/1.2.9/mode-sql.js"></script>
+```
 > A Vue.js project
 
 ## Build Setup
