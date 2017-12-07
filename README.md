@@ -2,7 +2,7 @@
 
 * ace 结合 sql-formatter，实现sql的录入和格式化。
 
-* ace官方地址：https://github.com/ajaxorg/ace
+* ace官方地址：https://github.com/ajaxorg/ace  
 sql-formatter官方地址：https://github.com/zeroturnaround/sql-formatter
 * 参考：
 1. https://yq.aliyun.com/articles/65260
@@ -41,21 +41,6 @@ editor.setValue(value);//设置内容
     <!--sql模式-->
     <script src="https://cdn.bootcss.com/ace/1.2.9/mode-sql.js"></script>
 ```
-* 格式处理  
-可以自己进行格式处理，比如关键字换行、大小写转换等  
-如下代码示意：
-```
-    handleSqlStr (sqlStr) {
-        let handledStr = sqlStr
-        handledStr = handledStr.replace(/from/g, '\nfrom')
-        handledStr = handledStr.replace(/where/g, '\nwhere')
-        handledStr = handledStr.replace(/limit/g, '\nlimit')
-        ...
-        return handledStr
-    }
-```
-* sql关键字转成大写字母  
-说明网址：https://stackoverflow.com/questions/35183311/ace-editor-autocompletion-keywords-in-upper-case/36205378#36205378
 
 > A Vue.js project
 
