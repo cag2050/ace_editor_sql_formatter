@@ -32,6 +32,9 @@ editor.setValue(value);//设置内容
     <!--sql模式-->
     <script src="https://cdn.bootcss.com/ace/1.2.9/mode-sql.js"></script>
 ```
+* sql关键字转成大写字母
+说明网址：https://stackoverflow.com/questions/35183311/ace-editor-autocompletion-keywords-in-upper-case/36205378#36205378
+
 > A Vue.js project
 
 ## Build Setup

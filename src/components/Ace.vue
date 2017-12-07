@@ -16,22 +16,16 @@ export default {
         let ace = window.ace
         ace.require('ace/ext/old_ie')
         ace.require('ace/ext/language_tools')
-        ace.require('ace/ext/language_tools')
         var editor = ace.edit('editor')
         editor.$blockScrolling = Infinity
         editor.setFontSize(16)
-        // editor.session.setMode('ace/mode/c_cpp')
         editor.setOptions({
             enableBasicAutocompletion: true,
             enableSnippets: true,
             enableLiveAutocompletion: true,
             wrap: 'free'
         })
-        editor.setTheme('ace/theme/monokai')
-        /*
-        var SqlMode = ace.require('ace/mode/sql').Mode
-        editor.session.setMode(new SqlMode())
-        */
+        // editor.setTheme('ace/theme/monokai')
     },
     methods: {
         formatSql () {
