@@ -1,9 +1,7 @@
 <template lang='pug'>
 #app
     div 路由列表：
-    a(href='/') ace-editor 例子1
-    <br/>
-    a(href='/ace2') ace-editor 例子2
+    a(href='/') ace-editor 例子
     <br/>
     router-link(to='/hello') hello
     div ----下面是内容-----
