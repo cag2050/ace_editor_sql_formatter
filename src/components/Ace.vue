@@ -2,7 +2,7 @@
 .sql
     .old.fl
         .textLeft sql语句：
-        pre#editor.word.textLeft(contenteditable='true' v-text='sqlStr' @input='sqlStr = $event.target.innerText')
+        pre#editor.word.textLeft {{ sqlStr }}
     .fl
         button(@click='formatSql') 转换
 </template>
@@ -15,7 +15,7 @@ export default {
     name: '',
     data () {
         return {
-            sqlStr: 'select * from user;'
+            sqlStr: 'select * from user where uid = 1 ;'
         }
     },
     mounted () {
