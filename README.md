@@ -6,6 +6,7 @@
 1. http://blog.csdn.net/sd4015700/article/details/49910353
 
 * ace editor 术语：
+
 术语 | 含义
 --- | ---
 snippet | 代码片段（在自动补全时使用）
