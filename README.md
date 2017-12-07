@@ -5,6 +5,11 @@
 1. https://yq.aliyun.com/articles/65260
 1. http://blog.csdn.net/sd4015700/article/details/49910353
 
+* 
+术语 | 含义
+--- | ---
+snippet | 代码片段（在自动补全时使用）
+
 * 以下部分是设置输入代码提示的，如果不需要可以不用引用ext-language_tools.js。
 ```
     ace.require("ace/ext/language_tools");

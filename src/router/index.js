@@ -13,6 +13,11 @@ export default new Router({
             component: resolve => require(['../components/Ace'], resolve)
         },
         {
+            path: '/ace2',
+            name: '',
+            component: resolve => require(['../components/Ace2'], resolve)
+        },
+        {
             path: '/hello',
             name: 'HelloWorld',
             component: HelloWorld
