@@ -28,7 +28,8 @@ export default {
         editor.setOptions({
             enableBasicAutocompletion: true,
             enableSnippets: true,
-            enableLiveAutocompletion: true
+            enableLiveAutocompletion: true,
+            wrap: true
         })
         // editor.setTheme('ace/theme/monokai')
         var SqlMode = ace.require('ace/mode/sql').Mode

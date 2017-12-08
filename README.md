@@ -22,7 +22,9 @@ gutter | 行数所在的位置
     editor.setOptions({
         enableBasicAutocompletion: true,
         enableSnippets: true,
-        enableLiveAutocompletion: true
+        enableLiveAutocompletion: true,
+        // 用户输入的sql语句，自动换行
+        wrap: true
     });
 ```
 *
