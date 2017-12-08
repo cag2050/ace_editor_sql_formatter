@@ -29,6 +29,13 @@ gutter | 行数所在的位置
 editor.getValue();//获取内容
 editor.setValue(value);//设置内容
 ```
+*
+```
+//设置打印线是否显示
+editor.setShowPrintMargin(false);
+//设置是否只读
+editor.setReadOnly(true);
+```
 * 
 ```
     <!--编辑器的最主要文件-->
