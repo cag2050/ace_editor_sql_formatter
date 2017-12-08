@@ -6,6 +6,7 @@
 sql-formatter官方地址：https://github.com/zeroturnaround/sql-formatter
 * 参考：
 1. https://yq.aliyun.com/articles/65260
+1. http://m.poorren.com/ace-editor-code-editor-guide
 1. http://blog.csdn.net/sd4015700/article/details/49910353
 
 * ace editor 术语：
