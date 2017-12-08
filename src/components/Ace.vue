@@ -39,7 +39,11 @@ export default {
             let ace = window.ace
             var editor = ace.edit('editor')
             var code = editor.getValue()
+            console.log(code)
             editor.setValue(sqlFormatter.format(code))
+            let deleteReturnStr = sqlFormatter.format(code)
+            deleteReturnStr = deleteReturnStr.replace(/\n/g, ' ')
+            console.log(deleteReturnStr)
         }
     }
 }
