@@ -42,10 +42,18 @@ editor.session.getTextRange(editor.getSelectionRange())
 ```
 *
 ```
-//设置打印线是否显示
+// 设置打印线是否显示
 editor.setShowPrintMargin(false);
-//设置是否只读
+// 设置是否只读
 editor.setReadOnly(true);
+// 获取总行数: 
+editor.session.getLength()
+// 在光标处插入字符串：
+editor.insert("Something cool");
+// 选中的代码部分
+editor.session.getTextRange(editor.getSelectionRange());
+// 获取当前光标所在的行和列
+editor.selection.getCursor();
 ```
 * 
 ```
