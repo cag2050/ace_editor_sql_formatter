@@ -31,8 +31,12 @@ gutter | 行数所在的位置
 ```
 *
 ```
-editor.getValue();//获取内容
-editor.setValue(value);//设置内容
+//获取内容
+editor.getValue();
+//设置内容
+editor.setValue(value);
+//用户选中的内容
+editor.session.getTextRange(editor.getSelectionRange())
 ```
 *
 ```
