@@ -3,7 +3,8 @@
 * ace 结合 sql-formatter，实现sql的录入和格式化。
 
 * ace官方地址：https://github.com/ajaxorg/ace   
- ace官方例子：https://ace.c9.io/build/kitchen-sink.html
+ ace官方例子：https://ace.c9.io/build/kitchen-sink.html  
+ ace的api:https://ace.c9.io/#nav=api  
    https://ace.c9.io/tool/mode_creator.html  
 sql-formatter官方地址：https://github.com/zeroturnaround/sql-formatter
 
